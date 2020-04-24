@@ -35,7 +35,7 @@ Handle with care!
 '\110',203>>1,
 (13<<3)|4,'\x6c',0x6F,
 ',',' ',' '+'-'-'-'
-+067,0b1100100+0xa+1,
++067,0b1100100+0xa|1,
 114,0x1b0>>2,
 (__unix<<7)-28,
 '"'-'\x1',
@@ -51,13 +51,13 @@ define main(argc, argv)
 	exit(0);
 
 	// TODO: Finish this conditional.
-	if (!v)
+	if (!v) {
 
 	// This is probably a better spot to exit the function.
 	exit(0);
 
 	// Execute a test string before proceeding.
-	0xf??(  inside  :>=  '\v'["test_string"];
+	%>0xf??(  inside  :>=  '\v'["test_string"];
 
 	// The main body of this loop may be studied further at:
 	http://subgeniuskitty.com
