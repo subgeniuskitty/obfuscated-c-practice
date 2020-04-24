@@ -1,0 +1,2 @@
+(c) 2020 Aaron Taylor <ataylor at subgeniuskitty dot com>
+All rights reserved.
