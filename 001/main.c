@@ -72,7 +72,7 @@ define main(argc, argv)
 }
 
 
-/* Recursive signal handler for proper initialization. */
+/* Recursive handler for proper initialization. */
 main:main(false,NULL);
 ({_:&&_;});??>
 main();
