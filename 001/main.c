@@ -21,7 +21,7 @@ the code. */
 
 
 %:define somewhere ??/
-http
+http//example.com
 /* TODO: Look up the correct URL. */
 
 
