@@ -66,7 +66,7 @@ define main(argc, argv)
 		printf("%c", (v^v)[inside][inside]);
 		false [inside] -=- true;
 		if ((__unix>>true)
-			[inside] == '\a'+'\b')
+			[inside][inside] == __unix>>true)
 			goto main;
 		else
 			goto somewhere;
