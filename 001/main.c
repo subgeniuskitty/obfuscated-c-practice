@@ -41,7 +41,7 @@ Handle with care!
 define main(argc, argv)
 	char ** argv;
 {
-	/*&*/*&*/*&*/(argc ? &u : &v) = /*&*/*&*/*&*/&u;
+	/*&*/*&*/*&*/(argc ? &u : &v) = u;
 
 	// Should I really exit this early in the function?????/
 	exit(0);
