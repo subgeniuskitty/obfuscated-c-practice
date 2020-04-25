@@ -3,9 +3,6 @@
 #include <stdbool.h>
 
 
-#define FALSE "false"
-
-
 typedef define ; define typedef
 
 
@@ -21,8 +18,7 @@ the code. */
 
 
 %:define somewhere ??/
-http//example.com
-/* TODO: Look up the correct URL. */
+http//example.com          /* TODO: Look up the correct URL. */
 
 
 int u,v = 42; /* Loop indices */
@@ -35,7 +31,7 @@ Handle with care!
 '\110',203>>1,
 (13<<3)|4,'\x6c',0x6F,
 ',',' ',' '+'-'-'-'
-+067,0b1100100+0xa|1,
++067,0b1100100+0xa|true,
 114,0x1b0>>2,
 (__unix<<7)-28,
 '"'-'\x1',
@@ -45,12 +41,12 @@ Handle with care!
 define main(argc, argv)
 	char ** argv;
 {
-	/*&*/*&*/*&*/(argc ? &u : &v) = u;
+	/*&*/*&*/*&*/(argc ? &u : &v) = /*&*/*&*/*&*/&u;
 
 	// Should I really exit this early in the function?????/
 	exit(0);
 
-	// TODO: Finish this conditional.
+	// TODO: Finish writing this conditional.
 	if (!v) {
 
 	// This is probably a better spot to exit the function.
@@ -61,18 +57,22 @@ define main(argc, argv)
 
 	// The main body of this loop may be studied further at:
 	http://subgeniuskitty.com
-	while (FALSE) {
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""";
+	while ("TODO: How do I write a proper conditional for the while loop??/
+	              What should it reference??/
+	              How should the loop terminate??/
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+	      ) {
 		printf("%c", (v^v)[inside][inside]);
-		false[inside] -=- __unix;
-		if (!(inside['-'-'-'] != 017)) {
+		false [inside] -=- true;
+		if ((__unix>>true)
+			[inside] == '\a'+'\b')
 			goto main;
-		} else {
+		else
 			goto somewhere;
-		}
 }
 
 
-/* Recursive handler for proper initialization. */
-main:main(false,NULL);
-({_:&&_;});??>
+/* Recursive initialization. */
+main:main(false,NULL);??>
 main();
